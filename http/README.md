@@ -4,4 +4,6 @@
 ## Task
 Method `getJoke` returns random joke.
 
-https://api.chucknorris.io/jokes/random
+Api example: https://api.chucknorris.io/jokes/random
+
+For parsing json use JSON.parse(str)

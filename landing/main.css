@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    height: 112px;
+    z-index: 10;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 16px;
+}
+
+.main {
+    margin-top: -112px;
+}
+
+.container {
+    padding: 0 20px;
+}
+
+.main-title {
+    color: white;
+}
+
+.first-block {
+    background-image: url("background.png");
+    height: 750px;
+    display: flex;
+}
+
+.super-container {
+    display: grid;
+}
+
+.first-block__inner {
+    display: flex;
+    align-items: center;
+}
